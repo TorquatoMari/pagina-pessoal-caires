@@ -1,0 +1,253 @@
+
+/* Estilo Cabeçalho*/
+
+
+header {
+    background-color: rgb(55, 82, 73);
+    color: white;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(89, 114, 106);
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: rgb(38, 56, 50);
+}
+
+/* Estilo Corpo*/
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/*Sobre Mim*/
+main {
+    padding: 20px;
+}
+
+.top-section {
+    display: flex;
+    align-items: center;
+}
+
+aside {  
+    width: 30%;
+    text-align: center;
+}
+
+aside img {
+    max-width: 80%;
+    border-radius: 50%;
+}
+
+#sobre-mim {
+    width: 70%;
+    padding-left: 20px;
+}
+
+section {
+    background-color: white;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/*Currículo*/
+.curso {
+    border: 1px solid  rgb(55, 82, 73);
+    padding: 15px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.curso h3 {
+    margin-bottom: 5px;
+    color: rgb(55, 82, 73);
+}
+
+.curso p {
+    margin: 5px 0;
+    color: rgb(55, 82, 73);
+}
+
+h2 {
+    color: rgb(55, 82, 73);
+}
+
+p {
+color: #333;
+line-height: 1.5;
+}
+
+/*Sessão Contato*/
+#contato {
+    background-color: white;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#contato h2 {
+    color: rgb(55, 82, 73);
+    margin-bottom: 20px;
+}
+
+#contato p a {
+    color: rgb(38, 56, 50);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#contato p a:hover {
+    color: rgb(38, 56, 50);
+    text-decoration: underline;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    width: 100%;
+    max-width: 500px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+textarea {
+    resize: none;
+}
+
+button {
+    background-color: rgb(89, 114, 106);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color:rgb(38, 56, 50);
+}
+
+/*Sessão Porfólio*/
+#portfolio {
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+}
+
+#portfolio h2 {
+    color: rgb(55, 82, 73);
+    margin-bottom: 20px;
+}
+
+.portfolio-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+/*Cada projeto fica em formato de um cartão */
+.portfolio-item  {
+
+    width: 300px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.portfolio-item:hover {
+    transform: scale(1.05); /*Aumenta o tamanho do cartão quando o mouse passa por ele */
+}
+
+.portfolio-item img {
+    width: 100%;
+    height: auto;
+}
+
+.portfolio-item p {
+    padding: 10px;
+    font-size: 1rem;
+    color: #333;
+    margin:0;
+}
+
+/*Footer*/
+footer {
+    background-color: rgb(55, 82, 73);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+footer p {
+    margin: 10px 0;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: rgb(38, 56, 50);
+    text-decoration: underline;
+}
+
+
+

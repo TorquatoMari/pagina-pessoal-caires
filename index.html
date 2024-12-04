@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Pessoal - Mari Ângela Torquato de Caires</title>
+    <link rel="stylesheet" href="cvMari3.css">
+</head>
+<body>
+    <header id="topo"> <!--Criação do cabeçalho, contendo um menu de navegação-->
+        <h1>Mari Angela Torquato de Caires</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre-mim">Sobre Mim</a></li>
+                <li><a href="#curriculo">Currículo</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main> <!--Definicação da sessão principal-->
+        <div class="top-section">
+            <aside> <!--Imagem na lateral-->
+                <img src="img_mari.jpg" alt="Foto de Mari Angela" /> 
+            </aside>
+
+            <section id="sobre-mim"> <!--A sessão Sobre Mim ficará do lado da foto-->
+                <h2>Sobre Mim</h2>
+                <p>Olá! Meu nome é Mari, tenho 34 anos e estou cursando Análise e Desenvolvimento de Sistemas na Uninter. </p>
+        
+                <p> Sempre fui apaixonada por ciências e tecnologia, e essa paixão me levou a concluir minha primeira graduação em Química. 
+                    Nesse momento estou em fase de transição de carreira, buscando me especializar na área de tecnologia.
+                </p>
+
+                <p>Acredito que minha formação em Química oferece uma perspectiva única para a nova área que estou explorando. 
+                     A capacidade de análise crítica, resolução de problemas complexos e atenção aos detalhes que desenvolvi durante meus estudos e prática como química são habilidades valiosas para o campo 
+                     da tecnologia. Além disso, a ciência me ensinou a ser resiliente e a encarar desafios com curiosidade e determinação.
+                </p>
+
+                <p>Atualmente estou em busca de um estágio para aplicar meus conhecimentos teóricos na prática, contribuir com projetos reais
+                     e continuar aprendendo!</p>
+
+                <h2> Curiosidades</h2>
+
+                <p>
+                    Sou uma grande entusiasta do universo geek e apaixonada por games e cultura Pop. Adoro explorar diferentes 
+                    universos de jogos e acompanhar tudo o que envolve filmes, séries e histórias que me inspiram.
+                </p>
+
+                <p>Além disso, tenho como hobbies a música e fotografia, que me permitem expressar minha criatividade de formas únicas.
+                   Também gosto de estar sempre aprendendo coisas novas, seja através de cursos, livros ou simplesmente explorando novas áreas de conhecimento.
+                </p>  
+            </section>
+        </div>
+
+        <section id="curriculo"> <!--Criação da sessão Curriculo-->
+            <h2>Currículo</h2>
+
+            <div class="curso"> <!--Cursos separados em Divs, para criar diferentes blocos-->
+            <h3>Análise e Desenvolvimento de Sistemas - Uninter</h3>
+            <p><strong>Início -</strong> Junho 2024 | <strong>Conclusão: </strong>Em andamento</p>
+            
+        </div>
+
+            <div class="curso">
+            <h3>English as a Second Language</h3>
+            <p><strong>Início -</strong> Março 2023 | <strong>Término:</strong> Agosto 2023</p>
+            
+        </div>
+
+            <div class="curso">
+            <h3>Pós Graduação em Administração de Empresas - FGV</h3>
+            <p><strong>Início -</strong> Março 2018 | <strong>Término:</strong> Julho 2019</p>
+            
+        </div>
+            <div class="curso">
+            <h3>Bacharel em Química</h3>
+            <p><strong>Início -</strong> Fevereiro 2010 | <strong>Término:</strong> Julho 2014</p>
+           
+        </div>
+    </div>
+    <div class="curso">
+    <h3>Idiomas</h3>
+    <p><strong>Inglês-</strong> Avançado 
+    <p><strong>Português-</strong> Língua Materna
+</div>
+        </div>
+        </section>
+
+        <section id="portfolio"> <!--Criação do Portfólio-->
+            <h2>Portfólio</h2>
+            <div class="portfolio-container">
+                <!-- Projeto 1 -->
+                <div class="portfolio-item">
+                    <a href="games.html" target="_blank" rel="noopener noreferrer">
+                        <img src="gamemania.png" alt="Game Mania">
+                        <p>Projeto 1 - Site de E-commerce da loja Game Mania</p>
+                    </a>
+                </div>
+        
+                <!-- Projeto 2 -->
+                <div class="portfolio-item">
+                    <a href="livros.html" target="_blank" rel="noopener noreferrer">
+                        <img src="literario.png" alt="Bookshelf">
+                        <p>Projeto 2 - Site Literário</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato"> <!--Criação da sessão Contato-->
+            <h2>Entre em Contato</h2>
+            <form action="#" method="post">
+                <div class="form-group">
+             <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+        </div>
+
+        <div class="form-group">
+            <label for="assunto">Assunto:</label>
+            <input type="text" id="assunto" name="assunto" placeholder="Digite o assunto" required>
+        </div>
+
+        <div class="form-group">
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" placeholder="Escreva sua mensagem" rows="5" required></textarea>
+        </div>
+
+        <button type="submit">Enviar</button>
+    </form>
+    <p>Você também pode entrar em contato pelos links abaixo: </p>
+    <p><a href="mailto:mariangelatorquato@gmail.com">mariangelatorquato@gmail.com</a></p>
+    <p><a href="https://www.linkedin.com/in/mari-%C3%A2ngela-torquato/" target="_blank">Meu Linkedin</a></p> 
+        </section>
+    </main>
+</body>
+<!--Rodapé da página-->
+<footer>
+    <p>&copy; 2024 Mari Angela Torquato de Caires. Todos os direitos reservados.</p>
+    <p><a href="#topo">Voltar ao topo</a></p>
+</footer>
+</html>

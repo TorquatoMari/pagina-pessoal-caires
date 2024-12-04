@@ -1,0 +1,144 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://www.twimber.com.br/wp-content/uploads/2020/08/capa-consoles-1513704274993_v2_1920x1080.jpg);
+    background-size: cover ;
+    background-repeat: no-repeat;
+    background-color: rgba(225,225,225,0.8);
+    background-blend-mode: overlay;
+}
+
+
+
+header {
+    padding: 32px 0;
+    background-color: #10082aa5;
+    color: #fff;
+    text-align: center;
+}
+
+header li {
+    display: inline;
+    justify-content: space-between;
+}
+
+header li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 2rem;
+    font-family: 'Inter', sans-serif;
+}
+
+header h1 {
+    font-family: 'Rubik Burned', system-ui;
+    font-size: 56px;
+    margin: 2rem;
+}
+
+
+
+.container h2,
+p {
+    color:#fff ;
+    font-family: 'Inter', sans-serif;
+}
+
+.container h2 {
+    padding: 2rem;
+    font-size: 28px;
+    margin-left: 2px;
+}
+
+
+.container p {
+    padding: 0.5rem;
+    margin-left: 1rem;
+    display: block;
+    float: left;
+    width: 50%;
+    line-height: 2;
+    font-size: 16px;
+}
+
+section {
+    clear: both; 
+}
+
+
+.contato h2, h3, p {
+    color:#fff ;
+    font-family: 'Inter', sans-serif;
+}
+
+.contato h2 {
+    padding: 1rem;
+    margin-left: 2px;
+}
+
+.contato h3 {
+    margin-left: 2px;
+    padding: 1rem ;
+}
+
+
+
+form input,
+textarea,
+button {
+    display: flex;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+    margin-left: 1rem;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+form button {
+    background-color: #182c61;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover { /*para o botão mudar de cor*/
+    background-color: #354a83 ;
+}
+
+.social-links img {
+    height: 24px;
+}
+
+.social-links {
+    display: inline; 
+    margin-right: 8px;
+
+}
+
+input:focus, textarea:focus {
+    outline-color: #182c61;
+}
+
+footer {
+    color:#fff ;
+    font-family: 'Inter', sans-serif;
+    padding: 16px 0;
+    margin-left: 1rem;
+}
+
+section {
+    padding: 24px 0;
+}
+
+.venha {
+    margin-right: 1rem;
+}
